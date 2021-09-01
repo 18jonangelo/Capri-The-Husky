@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+
+body {
+  /* background: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"); */
+  /* 
+  background: url("https://www.pinpng.com/pngs/m/54-548949_wind-clipart-leave-wind-blowing-leaves-png-transparent.png");
+  background-size: cover; */
+
+  background-color: #db600f;
+}
+.card {
+  margin: 8% 20%;
+  background-color: rgba(255, 99, 71, 0.247);
+
+  /* padding: 20px; */
+  /* background: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"); */
+  /* background: transparent; */
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.col-6 {
+  display: flex;
+  border: 1px solid black;
+  height: 400px;
+}
+
+.card .capri-snip {
+  width: 100%;
+  max-width: 100px;
+  position: absolute;
+  bottom: -40px;
+  right: -50px;
+  z-index: 1;
+  border: none;
+}
+
+.half-1 {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  border: none;
+
+  background: url("./images/capri-main.PNG");
+  background-size: cover;
+  /* background-position-x: -110px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.half-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  background-color: white;
+
+  /* background: url("https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position-y: -2290px; */
+  border: none;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 20px;
+}
+
+span {
+  font-family: "Merienda", cursive;
+  font-size: 50px;
+  color: #db600f;
+  text-align: center;
+  margin: 55px 15px;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
